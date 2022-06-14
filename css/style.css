@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+    line-height: 1.4;
+    max-width: 1281px;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Container ortalama */
+.container {
+    text-align: center;
+}
+/* arama kismi arka plan rengi*/
+.arama {
+    background-color: #EEEEEE;
+
+}
+/* buton ayarlari*/
+.button {
+    margin-top: 1px;
+    padding: 1px 2px;
+}
+/* yazi  ayarlari*/
+.yazi {
+    padding: 2px 2px;
+}
+/*section ayarlari*/
+.row {
+    display: flex;
+    text-align: center;
+    gap: 3px;
+
+}
+/* section bolge 1 ayarlari*/
+.kisim1 {
+    font-size: 14px;
+    width: 40%;
+    padding: 20px;
+    background-color: aqua;
+}
+/* section bolge 2 ayarlari*/
+.kisim2 {
+    font-size: 14px;
+    padding: 10px;
+    width: 20%;
+    background-color: #70CCC2;
+}
+/* section bolge 3 ayarlari*/
+.kisim3 {
+    font-size: 14px;
+    width: 40%;
+    background-color: #62B3AA;
+    padding: 10px;
+}
+/* list style gizleme */
+.row ul {
+    list-style-type: none;
+}
+/* arsiv link ayarlari*/
+.arsiv {
+    margin-left: 15px;
+}
+/* alt bolge  ayarlari*/
+.footer  {
+margin-top: 20px;
+}
+
+/* RESPONSIVE KODLAR */
+
+@media all and (max-width: 1281px) {}
